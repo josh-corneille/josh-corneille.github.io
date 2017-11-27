@@ -214,7 +214,7 @@
     $(document).ready(function () {
       $('#column-1,#column-2').find('h2').addClass('nonactive');
       $('.span-column').find('h2').addClass('active');
-      // $('.span-column').find('.list-1').hide();
+      $('#container').find('.list-1').hide();
 
       $('h2').click(function () {
         $(this).next('ul, p').toggle("fade", 500);
