@@ -14,10 +14,10 @@
   </div>
 
   <div class='span-column'>
-  <div id='info' class='title'>
-    <h1>Josh Corneille</h1>
-  </div>
-  <!--info-->
+    <div id='info' class='title'>
+      <h1>Josh Corneille</h1>
+    </div>
+    <!--info-->
 
 
     <div id='code'>
@@ -212,9 +212,10 @@
 
   <script>
     $(document).ready(function () {
-      $('#column-1,#column-2').find('h2').addClass('active');
-      $('.span-column').find('h2').addClass('nonactive');
-      $('.span-column').find('.list-1').hide();
+      $('#column-1,#column-2').find('h2').addClass('nonactive');
+      $('.span-column').find('h2').addClass('active');
+      // $('.span-column').find('.list-1').hide();
+
       $('h2').click(function () {
         $(this).next('ul, p').toggle("fade", 500);
         $(this).toggleClass('active');
