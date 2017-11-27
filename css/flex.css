@@ -2,30 +2,30 @@
 
 @font-face {
   font-family: titleBit;
-  src: url('04b_30.eot');
-  src: url('04b_30.TTF#iefix') format('eot'),
-  url('04b_30.TTF') format('truetype');
+  src: url('../assets/fonts/04b_30.eot');
+  src: url('../assets/fonts/04b_30.TTF#iefix') format('eot'),
+  url('../assets/fonts/04b_30.TTF') format('truetype');
 }
 
 @font-face {
  font-family: contentBit, monospace;
- src: url('8-BIT%20WONDER.TTF');
+ src: url('../assets/fonts/8-BIT%20WONDER.TTF');
 }
 
 @font-face {
     font-family: 'Amiga-Forever';
-    src:url('Amiga-Forever.ttf.woff') format('woff'),
-        url('Amiga-Forever.ttf.eot') format('embedded-opentype'),
-        url('Amiga-Forever.ttf') format('truetype'); 
+    src:url('../assets/fonts/Amiga-Forever.ttf.woff') format('woff'),
+        url('../assets/fonts/Amiga-Forever.ttf.eot') format('embedded-opentype'),
+        url('../assets/fonts/Amiga-Forever.ttf') format('truetype'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
  font-family: NDS;
-src: url('nintendo-ds-bios-webfont.eot');
-src: url('nintendo-ds-bios-webfont.eot?#iefix') format('embedded-opentype'),
-     url('Nintendo-DS-BIOS.ttf') format('truetype')
+src: url('../assets/fonts/nintendo-ds-bios-webfont.eot');
+src: url('../assets/fonts/nintendo-ds-bios-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../assets/fonts/Nintendo-DS-BIOS.ttf') format('truetype')
 }
 
 /*Flexbox*/
@@ -86,16 +86,8 @@ h1, h2 {
   z-index:-2;
   height: 100%;
   width: 100%;
-  background: url(Grid%20Pattern.png), repeat;
+  background: url('../assets/images/Grid%20Pattern.png'), repeat;
   display:inline-block;
-  /*
-margin:0; padding: 0;
-background-image:
-radial-gradient(ellipse closest-side,
-rgba(0,0,0,0), white),
-url(Grid%20Pattern.png);
-background-size: cover;
-*/
 }
 
 #vignette {
@@ -116,7 +108,7 @@ rgba(255,255,255,0), white);
 div.column h1, h2 {
   z-index:+1;
   border: 30px solid transparent;
-  border-image:url(Title%20Box.png) 20 20 stretch;
+  border-image:url('../assets/images/Title%20Box.png') 20 20 stretch;
   position: relative;
   background-color: #f6f6f6;
   background-clip: padding-box;
@@ -127,11 +119,6 @@ div.column h1, h2 {
   word-wrap: normal;
 }
 
-
-/*div#videos ul.list-1 {
-	padding-right: 20%;
-}*/
-
 ul.list-2 {
   padding-top: .1em;
   padding-bottom: .1em;
@@ -139,9 +126,9 @@ ul.list-2 {
 
 .list-1, div.column p {
   border: 30px solid transparent;
-	-webkit-border-image:url(Content%20Box.png) 30 30 stretch; /* Safari 3.1-5 */
-  -o-border-image:url(Content%20Box.png) 30 30 stretch; /* Opera 11-12.1 */
-  border-image:url(Content%20Box.png) 30 30 round;
+	-webkit-border-image:url('../assets/images/Content%20Box.png') 30 30 stretch; /* Safari 3.1-5 */
+  -o-border-image:url('../assets/images/Content%20Box.png') 30 30 stretch; /* Opera 11-12.1 */
+  border-image:url('../assets/images/Content%20Box.png') 30 30 round;
   background-color: white;
   background-clip: padding-box;
   font-family: NDS;
@@ -152,17 +139,6 @@ p {
  padding-left: .5em;
  line-height: 90%;
 }
-
-
-
-/*Only for absolute positioning
-#column-2 {
-  top: 10px;
-	right: 10%;
-	bottom: 10px;
-
-}
-*/
 
 h1.nonactive {
  margin-bottom: 30px;
@@ -183,7 +159,7 @@ h1:active, h2:active{
 #videos iframe {
   z-index: +2;
   border: .5em solid transparent;
-  border-image:url(Content%20Box%20Dark.png) 30 30 round;
+  border-image:url('../assets/images/Content%20Box%20Dark.png') 30 30 round;
   background-color: white;
   background-clip: padding-box;
 }
