@@ -3,5 +3,10 @@ layout: page
 title: code
 ---
 
-[text yourself](http://josh-corneille.com/text-yourself/)
+[Chord Function](https://github.com/josh-corneille/chord-function)
 
+[Text Yourself](http://josh-corneille.com/text-yourself/)
+
+[fret2key](https://github.com/josh-corneille/fret2key)
+
+[DnD Translator](https://github.com/josh-corneille/dnd-translator)
