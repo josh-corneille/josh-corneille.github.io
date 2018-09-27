@@ -32,3 +32,12 @@
     width: 95vw;
   }
 }
+
+#video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.video {
+  flex: 1;
+}
