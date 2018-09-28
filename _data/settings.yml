@@ -16,7 +16,7 @@ menu:
 social:
 # - {icon: 'twitter', link: 'https://twitter.com/paululele'}
 # - {icon: 'facebook', link: 'https://www.facebook.com/Le.Paul.94'}
-- {icon: 'instagram', link: 'https://instagram.com/weary_youth'}
+# - {icon: 'instagram', link: 'https://instagram.com/weary_youth'}
 - {icon: 'envelope', link: 'mailto:jcorneille107@gmail.com'}
 - {icon: 'github', link: 'https://github.com/josh-corneille'}
 # - {icon: 'rss-square', link: 'feed.xml'}
