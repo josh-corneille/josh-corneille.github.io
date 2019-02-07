@@ -1,0 +1,33 @@
+{
+    "features": [
+        {
+            "icon": "graduation-cap",
+            "title": "Education",
+            "description": [
+                "M.S. Computer Science",
+                "B.A. Film and Video"
+            ],
+            "url": "#education"
+        },
+        {
+            "icon": "terminal",
+            "title": "Code",
+            "description": [],
+            "url": "/pages/code"
+        },
+        {
+            "icon": "book",
+            "title": "Research",
+            "description": [
+                "Computer Music",
+                "Algorithmic Composition"
+            ],
+            "url": "/pages/notes"
+        },
+        {
+            "icon": "film",
+            "title": "Video",
+            "url": "/pages/video"
+        }
+    ]
+}

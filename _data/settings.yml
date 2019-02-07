@@ -7,10 +7,10 @@ google-ID: 'UA-112060364-2'
 
 menu:
 
-- {name: 'Notes', folder: 'pages', file: 'notes.html'}
-- {name: 'Code', folder: 'pages', file: 'code.html'}
-- {name: 'Video', folder: 'pages', file: 'video.html'}
-- {name: 'About', folder: 'pages', file: 'about.html'}
+- {name: 'Notes', folder: 'pages', file: 'notes.html', filename: 'notes'}
+- {name: 'Code', folder: 'pages', file: 'code.html', filename: 'code'}
+- {name: 'Video', folder: 'pages', file: 'video.html', filename: 'video'}
+- {name: 'About', folder: 'pages', file: 'about.html', filename: 'about'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:

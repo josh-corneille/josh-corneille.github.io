@@ -1,13 +1,16 @@
 # Site Build Settings
 
+# theme
+theme: minima
+
 # jekyll-paginate configuration
 paginate:            5
 
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+permalink:           pretty
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag, github-pages]
 
 sass:
   sass_dir: assets/css

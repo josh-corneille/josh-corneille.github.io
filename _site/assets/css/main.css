@@ -151,6 +151,70 @@ th, td {
   height: 100%;
   border: 0; }
 
+p {
+  line-height: normal; }
+
+#home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap; }
+
+#cv-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column; }
+
+.feature-box {
+  flex: 1 0 33%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; }
+
+.feature-col {
+  padding: 0rem .5rem; }
+
+.feature-box img {
+  max-width: 5rem; }
+
+.feature-box img span {
+  margin: 0em .5rem; }
+
+.feature-desc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.feature-desc-title {
+  flex-basis: 100%; }
+
+.feature-desc-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start; }
+
+.feature-desc-content p {
+  display: inline;
+  flex: 1 0 25%; }
+
+.cv-categories {
+  display: flex;
+  flex-direction: column; }
+
+.feature-date {
+  font-style: italic; }
+
+.feature-desc * {
+  margin: 0; }
+
 .featured-posts {
   height: 400px;
   margin: 5px 10px 10px;
@@ -515,7 +579,7 @@ pre code {
   -moz-transition: 1s;
   transition: 1s; }
   .fa-github:hover {
-    color: #343434; }
+    color: #0073a4; }
 
 .fa-linkedin {
   padding: 5px;

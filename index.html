@@ -2,3 +2,67 @@
 layout: home
 title: Home
 ---
+
+<h1>curriculum vitae</h1>
+
+<div id="home-container">
+
+    {% for feature in site.data.section.features %}
+    <div class="feature-box">
+        <div class="feature-col">
+            <div class="feature-img">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-{{feature.icon}} fa-stack-1x fa-inverse"></i>
+            </div>
+            </span>
+        </div>
+        <div class="feature-col">
+            <div class="feature-desc">
+                <div class="feature-desc-title">
+                    <a href="{{ feature.url }}">
+                        <h3>{{ feature.title }}</h3>
+                    </a>
+                </div>
+                <div class="feature-desc-content">
+                    {% for desc in feature.description %}
+                    <p>{{ desc }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+
+</div>
+
+<div id="cv-container">
+    <div id="education" class="cv-categories">
+        <h2>Education</h2>
+
+        {% for edu in site.data.education %}
+
+        <div class="feature-box">
+            <div class="feature-col">
+                <div class="feature-img">
+                    <img src="{{ edu.image }}">
+                </div>
+            </div>
+            <div class="feature-col">
+                <div class="feature-desc">
+                    <div class="feature-desc-title">
+                        <h4>{{ edu.school }}</h4>
+                    </div>
+                    <div class="feature-desc-content">
+                        <p class="feature-date">{{ edu.graduation }}</p>
+                        <p>{{ edu.major }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+</div>
