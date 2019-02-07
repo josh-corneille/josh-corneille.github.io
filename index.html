@@ -41,7 +41,7 @@ title: Home
     <div id="education" class="cv-categories">
         <h2>Education</h2>
 
-        {% for edu in site.data.education %}
+        {% for edu in site.data.education.main %}
 
         <div class="feature-box">
             <div class="feature-col">
@@ -57,6 +57,28 @@ title: Home
                     <div class="feature-desc-content">
                         <p class="feature-date">{{ edu.graduation }}</p>
                         <p>{{ edu.major }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
+
+        {% for edu in site.data.education.supplemental %}
+
+        <div class="feature-box">
+            <div class="feature-col">
+                <div class="feature-img">
+                    <a href="{{ edu.url }}"><img src="{{ edu.image }}"></a>
+                </div>
+            </div>
+            <div class="feature-col">
+                <div class="feature-desc">
+                    <div class="feature-desc-title">
+                        <h4>{{ edu.school }}</h4>
+                    </div>
+                    <div class="feature-desc-content">
+                        
                     </div>
                 </div>
             </div>

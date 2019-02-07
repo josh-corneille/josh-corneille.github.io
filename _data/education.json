@@ -1,0 +1,23 @@
+{
+    "main": [
+        {
+            "school" : "Oakland University",
+            "graduation" : "December 2019",
+            "major" : "M.S. Computer Science",
+            "image" : "/assets/img/oakland.png"
+        },
+        {
+            "school" : "Grand Valley State University",
+            "graduation" : "December 2012",
+            "major" : "B.A. Film and Video",
+            "image" : "/assets/img/grand.png"
+        }
+    ],
+    "supplemental": [
+        {
+            "school": "Team Treehouse",
+            "image": "/assets/img/treehouse.png",
+            "url": "https://teamtreehouse.com/joshcorneille"
+        }
+    ]
+}
