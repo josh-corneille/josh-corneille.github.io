@@ -16,15 +16,6 @@
             "url": "/pages/code"
         },
         {
-            "icon": "book",
-            "title": "Research",
-            "description": [
-                "Computer Music",
-                "Algorithmic Composition"
-            ],
-            "url": "/pages/notes"
-        },
-        {
             "icon": "film",
             "title": "Video",
             "url": "/pages/video"
